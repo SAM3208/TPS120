@@ -10,21 +10,26 @@ body {
 }
 
 .Encabezado {
-    width: 98%;
+    width: 100%;
     background-color: #7593E4;
-    padding: 30px;
+    padding-top: 12px;
     margin: auto;
-    margin-top: 15px;
-    border-radius: 4px;
-    color: whitesmoke;border-radius: 4px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+   
 }
 
-.Encabezado h1{
-    color: rgb(0, 0, 0);
+.Encabezado img {
+    width: 50px;
+    position: absolute;
+    top: 9px;
+    left: 1457px;
 }
 
 nav ul li {
-    width: 285px;
+    width: 287px;
     background-color: #7593E4;
     border-radius: 4px;
     color: whitesmoke;
@@ -35,7 +40,7 @@ nav ul li {
     margin-right: 2px;
     text-align: center;
     padding: 10px;
-    margin-left: 14px;
+    margin-left: 11px;
     
 }
 
@@ -44,17 +49,21 @@ nav ul li {
 }
 
 .footer {
-    width: 98%;
+    width: 88%;
     background-color: #7593E4;
     padding: 20px;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 4px;
     font-family: 'calibri';
     color: whitesmoke;
 }
 
-.footer a {
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer strong {
+    margin-left: 20px;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -64,8 +73,49 @@ nav ul li {
     background-color: #7593E4;
     padding: 15px;
     margin: 10px;
-    margin-top: 1px;
-    margin-left: 14px;
+    margin-top: 5px;
+    margin-left: 12px;
     border-radius: 4px;
     color: rgb(0, 0, 0);border-radius: 4px;
+}
+
+.galeriaimagenes {
+    margin-left: 90px;
+    display: flex;
+    width: 88%;
+    height: 450px;
+}
+
+.galeriaimagenes img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.galeriaimagenes :hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.arribafooter {
+    width: 88%;
+    background-color: #89a3eb;
+    padding: 18px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: 'calibri';
+    color: whitesmoke;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.arribafooter a{
+    margin-left: 20px;
+    color: whitesmoke;
+    text-decoration: none;
 }
