@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../fondos/formulario\ registro.jpg);
+    background-image: url(../images/Ingreso-registro/fondo.jpg);
     background-size: cover;
 }
 
@@ -104,5 +104,5 @@ body {
 }
 
 .info-adicional img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
   }

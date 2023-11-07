@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(../fondos/formulario\ registro.jpg);
+    background-image: url(../images/Ingreso-registro/fondo.jpg);
     background-size: cover;
 }
 
@@ -25,6 +25,31 @@ body {
     margin-bottom: 20px;
 }
 
+.form-register select {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.opcion {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 17px;
+    color: whitesmoke;
+}
+
 .controls {
     width: 100%;
     background: #24303c;
@@ -43,6 +68,7 @@ body {
     font-size: 18px;
     line-height: 40px;
 }
+
 
 .form-register a {
     color: whitesmoke;
@@ -101,8 +127,14 @@ body {
 .info-adicional a {
     color: whitesmoke;
     text-decoration: none;
+    text-decoration: underline;
 }
 
 .info-adicional img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
   }
+  
+.form-register h5{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
