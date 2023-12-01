@@ -3,45 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: #203D89;
+    background-color: #f7f7f7;
+    color: #333;
     background-size: cover;
-    font-family: "calibri";
+    font-family: "Segoe UI, Tahoma, Ginebra, Verdana, sans-serif";
 }
 
 .Encabezado {
-    width: 100%;
-    background-color: #7593E4;
-    padding-top: 12px;
-    margin: auto;
-    color: whitesmoke;
+    background-color: #4CAF50;
+    font-size: 25px;
     text-align: center;
-    font-family: cursive;
     color: black;
-   
+    padding: 20px;
 }
 
 .Encabezado img {
-    width: 50px;
-    position: absolute;
-    top: 9px;
-    left: 1457px;
+    width: 5%;
+    border-radius: 5px;
+    float: right;
+    margin: -41px -2px 0px 0px;
 }
 
-nav ul li {
-    width: 287px;
-    background-color: #7593E4;
-    border-radius: 4px;
-    color: whitesmoke;
-    float: left;
-    margin: 4px;
-    list-style: none;
-    margin-top: 5px;
-    margin-right: 2px;
+.menu {
+    background-color: #333;
+    padding: 15px 0px 15px 0px;
     text-align: center;
-    padding: 10px;
-    margin-left: 11px;
-    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.advertisement {
+    flex: 0 0 300px;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: fixed;
+    top: 150px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close-button {
+    align-self: flex-end;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #contenedor-tabla {
@@ -63,17 +83,14 @@ th, td {
 }
 
 thead {
-    background-color: #7593E4;
+    background-color: #4CAF50;
     border-bottom: solid 4px #000000;
     color: whitesmoke;
 }
 
 tr:nth-child(even) {
-    background-color: rgb(230, 228, 228);
-}
-
-tr:hover td{
-    background-color: #89a3eb;
+    background-color: #4d4d4d;
+    color: whitesmoke;
 }
 
 .clearfix{
@@ -82,10 +99,9 @@ tr:hover td{
 
 .footer {
     width: 88%;
-    background-color: #7593E4;
+    background-color: #333;
     padding: 20px;
     margin: auto;
-    font-family: 'calibri';
     color: whitesmoke;
 }
 
@@ -102,13 +118,12 @@ tr:hover td{
 
 .arribafooter {
     width: 88%;
-    background-color: #89a3eb;
+    background-color: #4d4d4d;
     padding: 18px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    font-family: 'calibri';
     color: whitesmoke;
     margin: auto;
     margin-top: 40px;

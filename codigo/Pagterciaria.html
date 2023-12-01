@@ -19,15 +19,26 @@
     <option value="Michis random"></option>
     </section>
 
+    <section class="menu">
     <nav>
-        <ul>
-            <li><a href="Pagprincipal.html">Inicio</a></li>
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Nuestros Gatos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="Pagingreso.html">Iniciar sesion</a></li>
-        </ul> 
+        <a href="Pagprincipal.html">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Nuestros Gatos</a>
+        <a href="#">Contacto</a>    
+        <a href="Pagingreso.html">Iniciar sesion</a> 
+    </section>
 
+    <div class="advertisement" id="advertisement">
+        <button class="close-button" onclick="closeAdvertisement()">X</button>
+        <h2>¡Anuncio!</h2>
+        <p>Descubre los productos más nuevos para tu gato. ¡Ofertas exclusivas!</p>
+    </div>
+
+    <script>
+        function closeAdvertisement() {
+            document.getElementById('advertisement').style.display = 'none';
+        }
+    </script>
 
 <h3 class="primer-h3">Conversion de edades gatunas a humanas</h3>
 

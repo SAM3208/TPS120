@@ -18,36 +18,30 @@
     <option value="Michis random"></option>
     </section>
 
-    <nav>
-        <ul>
-            <li><a href="Pagprincipal.html">Inicio</a></li>
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Nuestros Gatos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="Pagingreso.html">Iniciar sesion</a></li>
-        </ul>
+    <section class="menu">
     <nav>
 
-        <div class="clearfix"></div>
-    
-        <section class="titulos h2">
-            <h2>Tipo de michis:</h2>
-        </section>
-        
-        <div class="botderaza">
-            <form action="/tu_ruta_de_procesamiento" method="POST">
-            <select name="Michis">
-                <option value="Naranja">Naranja</option>
-                <option value="Negro">Negro</option>
-                <option value="Siames">Siames</option>
-                <option value="Gris">Gris</option>
-            </select>
-        <i></i>
-        </div>
+        <a href="Pagprincipal.html">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Nuestros Gatos</a>
+        <a href="#">Contacto</a>
+        <a href="Pagingreso.html">Iniciar sesion</a>
+    <nav>
+    </section>
 
-    <br>
+    <div class="advertisement" id="advertisement">
+        <button class="close-button" onclick="closeAdvertisement()">X</button>
+        <h2>¡Anuncio!</h2>
+        <p>Descubre los productos más nuevos para tu gato. ¡Ofertas exclusivas!</p>
+    </div>
 
-    <section class="galeriaimagenes">
+    <script>
+        function closeAdvertisement() {
+            document.getElementById('advertisement').style.display = 'none';
+        }
+    </script>
+
+<section class="galeriaimagenes">
     <img src="../images/Pagina Principal/1Baner/gatinha motoqueira.jfif" alt="michi con casco motero" title="Michi motero">
     <img src="../images/Pagina Principal/1Baner/michi mujeriego.jpg" alt="michi mujeriego" title="Michi mujeriego">
     <img src="../images/Pagina Principal/1Baner/michi calvo.jpg" alt="michi calvo" title="Michi calvo"> 
@@ -64,9 +58,9 @@
 </section>
 
     <section class="arribafooter">
-    <a href="Pagsecundaria.html"><strong>Click aqui para visitar otra pagina de gatos</strong></a>
+        <a href="Pagsecundaria.html"><strong>Click aqui para visitar otra pagina de gatos</strong></a>
 
-</section>
+    </section>
 
     <footer>
         <section class="footer">
