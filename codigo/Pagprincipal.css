@@ -92,6 +92,16 @@ nav a {
     border-radius: 5px;
 }
 
+.parrafo1 {
+    width: 92%;
+    background-color: #fff;
+    margin: 40px 0px 40px 60px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 7px;
+    box-shadow: 7px 13px 37px #0000004b;
+}
+
 .galeriaimagenes {
     margin: 30px 60px 30px;
     display: flex;
